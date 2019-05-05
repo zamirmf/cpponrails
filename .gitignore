@@ -1,0 +1,9 @@
+#To be removed later on
+To-do.md
+#Folders
+/.docker-sync
+/.vscode
+app/build/
+app/log/
+#Files
+.DS_Store

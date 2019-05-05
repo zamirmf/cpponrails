@@ -1,0 +1,13 @@
+version: '3'
+services:
+  cpp_on_rails:
+    build: .
+    container_name: 'cpp_on_rails_container'
+    tty: true
+    volumes:
+      - full-sync:/home/app:nocopy
+    security_opt:
+      - seccomp:unconfined
+volumes:
+  full-sync:
+    external: true
